@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction:row-reverse;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(234, 235, 206);
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar > li {
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar > li > a {
+    background-color: rgb(109, 91, 53);
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(26, 24, 12);
+    border-radius: 20px;
+}
+
+.logo {
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    border-radius: 10px;
+}
+
+.logo > a > img {
+    width: 50px;
+    border-radius: 20px;
+}
+.logo > p {
+    margin: 0 auto;
+}
+
+.home {
+    height: 500px;
+    background-image: url(./pic/32775.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.home-info {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;  
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 600;
+    color:rgb(44, 42, 23)
+}
+
+.description {
+    font-size: 25px;
+    color:rgb(32, 30, 15)
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.order {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.order > form {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(165, 144, 98);
+    border-radius: 10px;
+}
+
+.form-container > input,
+.form-container > textarea {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-submit {
+    padding: 10px;
+    border-style: none;
+    background-color: rgb(26, 24, 12);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.order > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(26, 24, 12);
+}
+
+.menu {
+    background-color: rgb(234, 235, 206);
+    padding: 20px;
+}
+
+.menu > h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 25px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    background-color: rgb(109, 91, 53);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image > img {
+    height: 275px;
+    width: 275px;
+    border-radius: 30px;
+}
+
+.description-title {
+    text-align: center;
+    margin-top: 13px;
+    color:rgb(214, 192, 144);
+}
+
+
